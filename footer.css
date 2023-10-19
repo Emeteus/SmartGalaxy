@@ -1,0 +1,67 @@
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Выравнивание текста в меню по левому краю */
+  }
+  
+  .footer-menu ul li {
+    display: block; /* Размещаем пункты меню вертикально, один под другим */
+    margin-bottom: 10px; /* Добавляем небольшой отступ между пунктами меню */
+  }
+  
+  .footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-logo {
+    text-align: center; /* Выравнивание логотипа по центру */
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Выравнивание социальных иконок по центру */
+  }
+  
+  .footer-social ul li {
+    display: block; /* Размещаем социальные иконки вертикально, одну под другой */
+    margin-bottom: 10px; /* Добавляем небольшой отступ между иконками */
+  }
+  
+  .footer-info {
+    text-align: center; /* Выравнивание текста информации по центру */
+    margin-top: 20px;
+  }
+  
+  .footer-info p {
+    font-size: 14px;
+  }
+  
+  /* Стили для ссылок в футере при наведении */
+  .footer-menu ul li a:hover, .footer-social ul li a:hover {
+    color: #ff0000; /* Цвет при наведении, можно изменить на свой выбор */
+  }
+  
