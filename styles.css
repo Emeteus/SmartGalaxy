@@ -1,11 +1,23 @@
+/* CSS стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('photo/back2.0.jpg'); /* Укажите путь к вашему фоновому изображению */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a1f5bc;
+  background-color: rgba(63, 61, 61, 0.2); /* Цвет с прозрачностью (здесь 0.8) */
   color: #ff0000;
   padding: 20px;
 }
+
 
 .logo h1 {
   font-size: 24px;
@@ -75,10 +87,4 @@ main h2 {
 
 main p {
   font-size: 16px;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
